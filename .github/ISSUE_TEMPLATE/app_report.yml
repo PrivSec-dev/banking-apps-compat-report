@@ -21,7 +21,7 @@ body:
     validations:
       required: true
   - type: input
-    id: App link
+    id: app_link
     attributes:
       label: Link to app
       description: Paste the download link (Play Store preferably) or tell us where to get the app if possible
@@ -99,7 +99,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: extra notes
+    id: extra_notes
     attributes:
       label: Is there any extra notes you think users should know about?
       description: |
