@@ -99,21 +99,21 @@ body:
     validations:
       required: true
   - type: textarea
-    id: adb_logs
+    id: extra_notes
     attributes:
-      label: ADB logcat of the app if necessary
+      label: Are there any extra notes you think users should know about?
       description: |
-        If you have any logs that come up that the app is creating relevant to anything mentioned like app crashes, SafetyNet, etc, please send a GitHub Gist of them. Do not send a bug report ZIP to us. They may expose sensitive information. If you wish to send a bug report ZIP, please do so directly to a GrapheneOS project member or developer.
+        Did you do any workarounds other users should know that aren't listed here?
 
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
     validations:
       required: false
   - type: textarea
-    id: extra_notes
+    id: adb_logs
     attributes:
-      label: Is there any extra notes you think users should know about?
+      label: ADB logcat of the app if necessary
       description: |
-        Did you do any workarounds other users should know that aren't listed here?
+        If you have any logs that come up that the app is creating relevant to anything mentioned like app crashes, SafetyNet, etc, please send a GitHub Gist of them. Do not send a bug report ZIP to us. They may expose sensitive information. If you wish to send a bug report ZIP, please do so directly to a GrapheneOS project member or developer.
 
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
     validations:
