@@ -15,3 +15,14 @@ Please use this repositories issue tracker to submit your banking app compatibil
 Project details: [akc3n.org/projects/banking](https://akc3n.org/projects/banking)   
 Contact me via matrix [@akc3n:grapheneos.org](https://matrix.to/#/#@akc3n:grapheneos.org)
 
+## TODO
+
+- [x] Create this repo and add links and draft description
+- [] Create a template for submitting results
+- [] Add proper todo
+- [] Optimize description on website and on repository
+- [] Get editorial proof read and grammar, etc corrected or re-written
+- [] Add proper citations and credits to anything and everything related to the work of GrapheneOS developers, license, and anything else that must be formally included
+- [] Credit contributors that help with making this better and more user friendly
+- [] Any tips, suggestions, or input is very much welcome
+
