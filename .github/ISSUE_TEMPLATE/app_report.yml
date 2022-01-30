@@ -55,6 +55,8 @@ body:
         - label: Pixel 5
         - label: Pixel 4a (5G)
         - label: Pixel 4a
+        - label: Pixel 4 XL
+        - label: Pixel 4
         - label: Pixel 3a XL
         - label: Pixel 3a
         - label: Pixel 3 XL
