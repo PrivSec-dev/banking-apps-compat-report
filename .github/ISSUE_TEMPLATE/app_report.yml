@@ -1,0 +1,64 @@
+name: Banking app report
+description: Report a banking app's compatibility on GrapheneOS
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this report! Please remember this is for GrapheneOS only.
+  - type: checkboxes
+    attributes:
+      label: Is there an existing issue for this?
+      description: Please search to see if an issue already exists to avoid creating duplicates.
+      options:
+        - label: I have searched the existing issues
+          required: true
+  - type: input
+    id: version
+    attributes:
+      label: App name
+      description: What is the banking app called?
+      placeholder: 
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: App version
+      description: What version of the app did you test it with? (Settings -> Apps -> app name -> Version at the bottom)
+      placeholder: v1.3.3.7
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Device
+      description: Which Pixel(s) have you tested this with?
+      options:
+        - label: Pixel 6 Pro
+        - label: Pixel 6
+        - label: Pixel 5a
+        - label: Pixel 5
+        - label: Pixel 4a (5G)
+        - label: Pixel 4a
+        - label: Pixel 3a XL
+        - label: Pixel 3a
+        - label: Pixel 3 XL
+        - label: Pixel 3
+    validations:
+      required: true
+  - type: checkboxes
+    attributes:
+      label: Google Play installed
+      description: Do you have Google Play installed?
+      options:
+        - label: Tick if it's installed. Leave blank if not.
+          required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the app's functionality
+      description: |
+        What happens when you use the app? What tasks do work and don't work? Please mention all the steps to reproduce any issues. Do not leave out any information. What is the expected outcome of each thing you do?
+
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
