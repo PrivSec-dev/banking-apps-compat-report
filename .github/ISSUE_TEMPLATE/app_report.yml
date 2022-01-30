@@ -57,18 +57,14 @@ body:
       description: Do you have Google Play installed in the profile you tested in?
       options:
         - label: Installed
-          required: true
         - label: Not installed
-          required: true
   - type: checkboxes
     attributes:
       label: Native code debugging
       description: Was native code debugging enabled or disabled during the testing? (Settings -> Security -> Enable native code debugging)
       options:
         - label: Enabled
-          required: true
         - label: Disabled
-          required: true
   - type: checkboxes
     attributes:
       label: Stock OS compatibility
@@ -80,6 +76,8 @@ body:
           required: false
         - label: Not tested
           required: false
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Profile app tested in
