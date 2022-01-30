@@ -77,7 +77,6 @@ body:
     attributes:
       label: Profile app tested in
       description: Which user profile was this tested on?
-      required: true
       options:
         - label: Main user profile
         - label: Secondary user profile
