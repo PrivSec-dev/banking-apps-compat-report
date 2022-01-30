@@ -60,6 +60,13 @@ body:
         - label: Not installed
   - type: checkboxes
     attributes:
+      label: SafetyNet Enforcement
+      description: Does this app enforce SafetyNet?
+      options:
+        - label: Enforced
+        - label: Not enforced
+  - type: checkboxes
+    attributes:
       label: Native code debugging
       description: Was native code debugging enabled or disabled during the testing? (Settings -> Security -> Enable native code debugging)
       options:
