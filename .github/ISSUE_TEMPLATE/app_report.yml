@@ -43,22 +43,30 @@ body:
         - label: Pixel 3a
         - label: Pixel 3 XL
         - label: Pixel 3
-    validations:
-      required: true
   - type: checkboxes
     attributes:
       label: Google Play installed
       description: Do you have Google Play installed?
       options:
         - label: Tick if it's installed. Leave blank if not.
-          required: true
+  - type: checkboxes
+    attributes:
+      label: stock OS
+      description: Does this app work on stock OS?
+      options:
+        - label: Yes
+          required: false
+        - label: No
+          required: false
+        - label: Not tested
+          required: false
   - type: textarea
     id: description
     attributes:
       label: Description of the app's functionality
       description: |
-        What happens when you use the app? What tasks do work and don't work? Please mention all the steps to reproduce any issues. Do not leave out any information. What is the expected outcome of each thing you do?
+        What happens when you use the app? What tasks do work and don't work? What is the expected outcome of each thing you do? Please mention all the steps to reproduce any issues. Do not leave out any information.
 
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
     validations:
-      required: false
+      required: true
