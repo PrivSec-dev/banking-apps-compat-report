@@ -54,9 +54,9 @@ body:
       label: stock OS
       description: Does this app work on stock OS?
       options:
-        - label: Yes
+        - label: Works
           required: false
-        - label: No
+        - label: Does not work
           required: false
         - label: Not tested
           required: false
