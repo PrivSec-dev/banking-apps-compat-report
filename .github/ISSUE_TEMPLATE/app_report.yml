@@ -71,24 +71,17 @@ body:
       description: Does this app work on stock OS?
       options:
         - label: Works
-          required: false
         - label: Does not work
-          required: false
         - label: Not tested
-          required: false
-    validations:
-      required: true
   - type: checkboxes
     attributes:
       label: Profile app tested in
       description: Which user profile was this tested on?
+      required: true
       options:
         - label: Main user profile
-          required: false
         - label: Secondary user profile
-          required: false
         - label: I used a work profile device manager app (Please mention more details about it down below like the app)
-          required: false
   - type: textarea
     id: description
     attributes:
