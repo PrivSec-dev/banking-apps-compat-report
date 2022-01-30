@@ -36,6 +36,14 @@ body:
       placeholder: v1.3.3.7
     validations:
       required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country of the app
+      description: Specify what country the app is for (it is assumed you're using it in the same country here)
+      placeholder: United States
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Device
@@ -60,11 +68,20 @@ body:
         - label: Not installed
   - type: checkboxes
     attributes:
+      label: Google Play Network permission revoked?
+      description: If you have Google Play installed, was the Network permission revoked?
+      options:
+        - label: Revoked
+        - label: Not revoked
+        - label: I did not have Google Play installed
+  - type: checkboxes
+    attributes:
       label: SafetyNet Enforcement
-      description: Does this app enforce SafetyNet?
+      description: Does this app enforce SafetyNet? (If you can't use it even with Google Play installed + native code debugging enabled, it may be enforcing SafetyNet ctsProfileMatch)
       options:
         - label: Enforced
         - label: Not enforced
+        - label: Unsure
   - type: checkboxes
     attributes:
       label: Native code debugging
