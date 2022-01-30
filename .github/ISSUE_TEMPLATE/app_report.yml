@@ -70,12 +70,12 @@ body:
         - label: Not installed
   - type: checkboxes
     attributes:
-      label: Google Play Network permission revoked?
-      description: If you have Google Play installed, was the Network permission revoked?
+      label: Google Play services Network permission revoked?
+      description: If you have Google Play installed, was the Network permission for Google Play services revoked?
       options:
         - label: Revoked
         - label: Not revoked
-        - label: I did not have Google Play installed
+        - label: I did not have Google Play services installed
   - type: checkboxes
     attributes:
       label: SafetyNet Enforcement
