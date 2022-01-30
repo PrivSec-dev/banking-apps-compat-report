@@ -21,6 +21,14 @@ body:
     validations:
       required: true
   - type: input
+    id: App link
+    attributes:
+      label: Link to app
+      description: Paste the download link (Play Store preferably) or tell us where to get the app if possible
+      placeholder: 
+    validations:
+      required: false
+  - type: input
     id: os
     attributes:
       label: App version
@@ -46,12 +54,21 @@ body:
   - type: checkboxes
     attributes:
       label: Google Play installed
-      description: Do you have Google Play installed?
+      description: Do you have Google Play installed in the profile you tested in?
       options:
         - label: Tick if it's installed. Leave blank if not.
   - type: checkboxes
     attributes:
-      label: stock OS
+      label: Native code debugging
+      description: Was native code debugging enabled or disabled during the testing? (Settings -> Security -> Enable native code debugging)
+      options:
+        - label: Enabled
+          required: false
+        - label: Disabled
+          required: false
+  - type: checkboxes
+    attributes:
+      label: Stock OS compatibility
       description: Does this app work on stock OS?
       options:
         - label: Works
@@ -60,13 +77,34 @@ body:
           required: false
         - label: Not tested
           required: false
+  - type: checkboxes
+    attributes:
+      label: Profile app tested in
+      description: Which user profile was this tested on?
+      options:
+        - label: Main user profile
+          required: false
+        - label: Secondary user profile
+          required: false
+        - label: I used a work profile device manager app (Please mention more details about it down below like the app)
+          required: false
   - type: textarea
     id: description
     attributes:
       label: Description of the app's functionality
       description: |
-        What happens when you use the app? What tasks do work and don't work? What is the expected outcome of each thing you do? Please mention all the steps to reproduce any issues. Do not leave out any information.
+        What happens when you use the app? What tasks do work and don't work? What is the expected outcome of each thing you do? Did you test any other configurations and setups? Please mention all the steps to reproduce any issues. Do not leave out any information.
 
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
     validations:
       required: true
+  - type: textarea
+    id: extra notes
+    attributes:
+      label: Is there any extra notes you think users should know about?
+      description: |
+        Did you do any workarounds other users should know that aren't listed here?
+
+        Tip: You can attach images by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
