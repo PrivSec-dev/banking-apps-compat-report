@@ -99,7 +99,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
+    id: adb_logs
     attributes:
       label: ADB logcat of the app if necessary
       description: |
