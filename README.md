@@ -3,6 +3,8 @@
 Status of current count of listed working banking apps confirmed:  
 # 47
 
+*full disclosure: I may forget to update this number from time to time.*  
+
 This is an ongoing work in progress sub-project that maintains a list of currently working banking apps that do not enforce [SafetyNet](https://grapheneos.org/articles/attestation-compatibility-guide) and work with [GrapheneOS](https://grapheneos.org/)'s [compatibility layer](https://grapheneos.org/usage#sandboxed-google-play).   
 
 Intro: https://akc3n.org/2022/01/29/banking  
