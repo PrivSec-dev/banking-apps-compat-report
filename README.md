@@ -1,25 +1,27 @@
 # GrapheneOS compatibility for Banking Apps
 
-This is a ongoing work in progress sub-project that maintains a list of currently working banking apps that do not enforce [SafetyNet](https://grapheneos.org/articles/attestation-compatibility-guide) and work with [GrapheneOS](https://grapheneos.org/)'s [compatibility layer](https://grapheneos.org/usage#sandboxed-google-play).
-
-To view the current list of banking apps that work:
-
-# [LIST OF BANKING APPS THAT WORK](https://akc3n.org/projects/banking)
-
-**Please use this repository's issue tracker to submit your banking app compatibility results by opening a [New Issue](https://github.com/akc3n/banking/issues/new?assignees=&labels=&template=app_report.yml)**
-
-## Status
-
-Currently the list is small but it is growing!
-
-BANKING APPS:
+Status of current count of listed working banking apps confirmed:  
 # 47
 
-*this number maybe lesser then what's there as I may forget to update this part sometimes*
-## Notes
+This is an ongoing work in progress sub-project that maintains a list of currently working banking apps that do not enforce [SafetyNet](https://grapheneos.org/articles/attestation-compatibility-guide) and work with [GrapheneOS](https://grapheneos.org/)'s [compatibility layer](https://grapheneos.org/usage#sandboxed-google-play).   
 
-Project details: [akc3n.org/projects/banking](https://akc3n.org/projects/banking)   
-Contact me via matrix [@akc3n:grapheneos.org](https://matrix.to/#/@akc3n:grapheneos.org)
+Intro: https://akc3n.org/2022/01/29/banking  
+Details: https://akc3n.org/projects/banking  
+
+# [LIST OF BANKING APPS](https://akc3n.org/projects/banking/#list-of-banking-apps)
+
+**Please help by submitting an app report using the [New Issue Form](https://github.com/akc3n/banking/issues/new?assignees=&labels=&template=app_report.yml)**   
+
+For non-github users, an alternative way to contribute to the list can be found here:  
+https://akc3n.org/projects/banking/#alternative-ways-to-submit
+
+## CONTACT
+  
+Matrix: [@akc3n:grapheneos.org](https://matrix.to/#/@akc3n:grapheneos.org)  
+Telegram: [t.me/akc3n](https://t.me/akc3n)  
+IRC: libra.chat -> akc3n
+
+---
 
 ## TODO
 
