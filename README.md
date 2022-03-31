@@ -23,6 +23,14 @@ Contact me via matrix [@akc3n:grapheneos.org](https://matrix.to/#/@akc3n:graphen
 
 ## TODO
 
+- [x] Add new ToDo
+- [ ] Redo this Readme
+- [ ] Fix previous commits and follow proper formatting
+- [x] Learn how to use Git/Github properly in order to do everything accordingly (dedicated time this week - studying in progress)
+- [ ] Explain my personal (in)experience with Git, learn from it, show accountability and do better with this project.
+
+*OLD TODO, for transparency purposes*:  
+
 - [x] Create this repo and add links and draft description
 - [x] Create a template for submitting results
 - [x] Add proper todo
@@ -30,4 +38,5 @@ Contact me via matrix [@akc3n:grapheneos.org](https://matrix.to/#/@akc3n:graphen
 - [x] Get editorial proof read and grammar, etc corrected or re-written
 - [x] Add proper citations and credits to anything and everything related to the work of GrapheneOS developers, license, and anything else that must be formally included
 - [x] Credit contributors that help with making this better and more user friendly
+
 
