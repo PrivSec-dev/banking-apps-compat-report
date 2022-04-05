@@ -61,6 +61,14 @@ body:
         - label: Pixel 3a
         - label: Pixel 3 XL
         - label: Pixel 3
+  - type: input
+    id: build
+    attributes:
+      label: Build number
+      description: What release version of GrapheneOS are you currently on?
+      placeholder: (Settings -> About -> Build number) SP2A.220405.003.2022040400
+     validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Google Play installed
