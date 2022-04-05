@@ -48,7 +48,7 @@ body:
     id: build_number
     attributes:
       label: Build Number
-      description: What is the GrapheneOS release verion build number that you are currently using?
+      description: What is the GrapheneOS release verion build number that you are currently using? (Settings - About phone -> Build number)
       placeholder: SP2A.220405.003.2022040400
     validations:
       required: true
