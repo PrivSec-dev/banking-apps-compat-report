@@ -25,9 +25,9 @@ body:
     attributes:
       label: Link to app
       description: Paste the download link (Play Store preferably) or tell us where to get the app if possible
-      placeholder: 
+      placeholder: https://play.google.com/store/apps/details?id=com.bmo.mobile
     validations:
-      required: false
+      required: true
   - type: input
     id: os
     attributes:
