@@ -57,6 +57,7 @@ body:
       label: Device
       description: Which Pixel(s) have you tested this with?
       options:
+        - label: Pixel 6a
         - label: Pixel 6 Pro
         - label: Pixel 6
         - label: Pixel 5a
