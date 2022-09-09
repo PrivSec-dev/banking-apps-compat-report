@@ -70,8 +70,6 @@ body:
         - label: Pixel 3a
         - label: Pixel 3 XL
         - label: Pixel 3
-    validations:
-      required: true
   - type: checkboxes
     attributes:
       label: Google Play installed
@@ -79,6 +77,8 @@ body:
       options:
         - label: Installed
         - label: Not installed
+    validation:
+      required: true
   - type: checkboxes
     attributes:
       label: Google Play services Network permission revoked?
