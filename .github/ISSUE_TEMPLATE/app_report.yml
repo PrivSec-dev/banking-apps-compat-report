@@ -70,6 +70,8 @@ body:
         - label: Pixel 3a
         - label: Pixel 3 XL
         - label: Pixel 3
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Google Play installed
