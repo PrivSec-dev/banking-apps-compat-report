@@ -77,7 +77,7 @@ body:
       options:
         - label: Installed
         - label: Not installed
-    validation:
+    validations:
       required: true
   - type: checkboxes
     attributes:
