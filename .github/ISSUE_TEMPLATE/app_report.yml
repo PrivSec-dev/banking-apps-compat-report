@@ -77,8 +77,6 @@ body:
       options:
         - label: Installed
         - label: Not installed
-    validations:
-      required: true
   - type: checkboxes
     attributes:
       label: Google Play services Network permission revoked?
