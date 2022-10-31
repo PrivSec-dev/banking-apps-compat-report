@@ -55,25 +55,25 @@ body:
   - type: dropdown
     id: download
     attributes:
-      label: "Device list"
+      label: Device list
       description: Which Pixel(s) have you tested this with?
       multiple: true
       options:
-        Pixel 7 Pro
-        Pixel 7
-        Pixel 6a
-        Pixel 6 Pro
-        Pixel 6
-        Pixel 5a
-        Pixel 5
-        Pixel 4a (5G)
-        Pixel 4a
-        Pixel 4 XL
-        Pixel 4
-        Pixel 3a XL (obsolete)
-        Pixel 3a (obsolete)
-        Pixel 3 XL (obsolete)
-        Pixel 3 (obsolete)
+        - Pixel 7 Pro
+        - Pixel 7
+        - Pixel 6a
+        - Pixel 6 Pro
+        - Pixel 6
+        - Pixel 5a
+        - Pixel 5
+        - Pixel 4a (5G)
+        - Pixel 4a
+        - Pixel 4 XL
+        - Pixel 4
+        - Pixel 3a XL (obsolete)
+        - Pixel 3a (obsolete)
+        - Pixel 3 XL (obsolete)
+        - Pixel 3 (obsolete)
     validations:
         required: true
   - type: checkboxes
