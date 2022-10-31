@@ -52,11 +52,13 @@ body:
       placeholder: SP2A.220405.003.2022040400
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
+    id: device_list
     attributes:
-      label: Device
-      description: Which Pixel(s) have you tested this with?
-      options:
+    label: Device list
+    description: Which Pixel(s) have you tested this with?
+    multiple: true
+    options:
         - label: Pixel 7 Pro
         - label: Pixel 7
         - label: Pixel 6a
@@ -72,6 +74,8 @@ body:
         - label: Pixel 3a (obsolete)
         - label: Pixel 3 XL (obsolete)
         - label: Pixel 3 (obsolete)
+    validations:
+        required: true
   - type: checkboxes
     attributes:
       label: Google Play installed
