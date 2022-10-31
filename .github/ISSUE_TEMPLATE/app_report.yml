@@ -55,7 +55,7 @@ body:
   - type: dropdown
     id: download
     attributes:
-      label: Device list
+      label: "Device list"
       description: Which Pixel(s) have you tested this with?
       multiple: true
       options:
