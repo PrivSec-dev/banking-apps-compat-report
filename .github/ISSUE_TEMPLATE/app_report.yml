@@ -53,12 +53,12 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: device_list
+    id: download
     attributes:
-    label: Device list
-    description: Which Pixel(s) have you tested this with?
-    multiple: true
-    options:
+      label: Device list
+      description: Which Pixel(s) have you tested this with?
+      multiple: true
+      options:
         - label: Pixel 7 Pro
         - label: Pixel 7
         - label: Pixel 6a
