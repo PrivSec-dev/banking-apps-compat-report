@@ -1,5 +1,7 @@
-name: Banking app report
+name: Submit banking app report
 description: Report a banking app's compatibility on GrapheneOS
+title: "your_BankingApp - your_Country"
+labels: ["app report"]
 body:
   - type: markdown
     attributes:
@@ -56,7 +58,7 @@ body:
     id: download
     attributes:
       label: Device list
-      description: Which Pixel(s) have you tested this with?
+      description: Which Pixel(s) have you tested this with? (Select one or multiple devices in dropdown menu)
       multiple: true
       options:
         - Pixel 7 Pro
@@ -76,6 +78,14 @@ body:
         - Pixel 3 (obsolete)
     validations:
         required: true
+  - type: checkboxes
+    attributes:
+      label: Profile app tested in
+      description: Which user profile was this tested on?
+      options:
+        - label: Main user profile
+        - label: Secondary user profile
+        - label: I used a work profile device manager app (Please mention more details about it down below like the app)
   - type: checkboxes
     attributes:
       label: Google Play installed
@@ -121,14 +131,6 @@ body:
         - label: Works
         - label: Does not work
         - label: Not tested
-  - type: checkboxes
-    attributes:
-      label: Profile app tested in
-      description: Which user profile was this tested on?
-      options:
-        - label: Main user profile
-        - label: Secondary user profile
-        - label: I used a work profile device manager app (Please mention more details about it down below like the app)
   - type: textarea
     id: description
     attributes:
