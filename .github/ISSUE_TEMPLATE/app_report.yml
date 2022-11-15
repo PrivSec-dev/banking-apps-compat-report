@@ -58,7 +58,7 @@ body:
     id: select_device
     attributes:
       label: Device list
-      description: Which Pixel(s) have you tested this with? (Select one or multiple devices in dropdown menu)
+      description: Which Pixel(s) have you tested this with? (Select one or multiple)
       multiple: true
       options:
         - Pixel 7 Pro
@@ -70,29 +70,37 @@ body:
         - Pixel 5
         - Pixel 4a (5G)
         - Pixel 4a
-        - Pixel 4 XL
-        - Pixel 4
+        - Pixel 4 XL (end-of-life)
+        - Pixel 4 (end-of-life)
         - Pixel 3a XL (obsolete)
         - Pixel 3a (obsolete)
         - Pixel 3 XL (obsolete)
         - Pixel 3 (obsolete)
     validations:
         required: true
-  - type: checkboxes
+  - type: dropdown
+    id: profiles_tested
     attributes:
       label: Profile app tested in
-      description: Which user profile was this tested on?
+      description: Which user profile was this test on? (Select one or multiple)
+      multiple: true
       options:
-        - label: Main user profile
-        - label: Secondary user profile
-        - label: I used a work profile device manager app (Please mention more details about it down below like the app)
-  - type: checkboxes
+        - Owner profile
+        - Secondary profile(s)
+        - Work profile (Add details in extra notes below, i.e., device manager app name)
+      validations:
+        required: true
+  - type: dropdown
+    id: google_play
     attributes:
       label: Google Play installed
       description: Do you have Google Play installed in the profile you tested in?
+      multiple: false
       options:
-        - label: Installed
-        - label: Not installed
+        - Installed
+        - Not installed
+      validations:
+        required: true
   - type: checkboxes
     attributes:
       label: Google Play services Network permission revoked?
