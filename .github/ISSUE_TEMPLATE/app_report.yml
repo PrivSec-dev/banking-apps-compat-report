@@ -6,7 +6,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this report! **Please remember this is for GrapheneOS only**.
+        **Please remember this is for GrapheneOS only!**
+        Thank you for taking the time to fill out this report.
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
