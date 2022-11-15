@@ -159,8 +159,6 @@ body:
         If you have any logs that come up that the app is creating relevant to anything mentioned like app crashes, SafetyNet, etc, please send a GitHub Gist of them. Do not send a bug report ZIP to us. They may expose sensitive information. If you wish to send a bug report ZIP, please do so directly to a GrapheneOS project member or developer.
 
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
-      value: |
-        ...
       render: systemverilog
     validations:
       required: false
