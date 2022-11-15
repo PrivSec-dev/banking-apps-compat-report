@@ -55,7 +55,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: select_device
+    id: selectdevice
     attributes:
       label: Device list
       description: Which Pixel(s) have you tested this with? (Select one or multiple)
@@ -79,7 +79,7 @@ body:
     validations:
         required: true
   - type: dropdown
-    id: profiles_tested
+    id: profiles
     attributes:
       label: Profile app tested in
       description: Which user profile was this test on? (Select one or multiple)
@@ -88,10 +88,10 @@ body:
         - Owner profile
         - Secondary profile(s)
         - Work profile (Add details in extra notes below, i.e., device manager app name)
-      validations:
+    validations:
         required: true
   - type: dropdown
-    id: google_play
+    id: googleplay
     attributes:
       label: Google Play installed
       description: Do you have Google Play installed in the profile you tested in?
@@ -99,7 +99,7 @@ body:
       options:
         - Installed
         - Not installed
-      validations:
+    validations:
         required: true
   - type: checkboxes
     attributes:
