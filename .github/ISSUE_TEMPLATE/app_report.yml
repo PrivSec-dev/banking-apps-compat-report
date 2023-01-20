@@ -97,8 +97,8 @@ body:
       description: Do you have Google Play installed in the profile you tested in?
       multiple: false
       options:
+        - Not Installed
         - Installed
-        - Not installed
     validations:
         required: true
   - type: checkboxes
