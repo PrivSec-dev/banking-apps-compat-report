@@ -34,7 +34,10 @@ body:
     id: os
     attributes:
       label: App version
-      description: What version of the app did you test it with? (Settings → Apps → App → Version at the bottom)
+      description: |
+        What version of the app did you test it with?
+        
+        `Settings` → `Apps` → `All apps` → `<app_name>` → `Version`       
       placeholder: v1.3.3.7
     validations:
       required: true
@@ -50,7 +53,10 @@ body:
     id: build_number
     attributes:
       label: Build Number
-      description: What version of GrapheneOS are you currently using? (Settings → About phone → Build number)
+      description: |
+        What version of GrapheneOS are you currently using? 
+        
+        `Settings` → `About phone` → `Build number`
       placeholder: SP2A.220405.003.2022040400
     validations:
       required: true
@@ -113,9 +119,9 @@ body:
     attributes:
       label: Native code debugging
       description: |
-        Was native code debugging enabled or disabled during the testing? 
+        Was [native code debugging](https://grapheneos.org/usage#banking-apps) enabled or disabled during the testing? 
         
-        `Owner Profile` → `Settings` → `Security` → `Enable native code debugging` _[More info](https://grapheneos.org/usage#banking-apps)_
+        `Settings` → `Security` → `Enable native code debugging`
       options:
         - label: Enabled
         - label: Disabled
@@ -123,9 +129,9 @@ body:
     attributes:
       label: Exploit protection compatibility mode
       description: |
-        Was per-app exploit protection compatibility mode enabled or disabled during the testing?
+        Was per-app [exploit protection compatibility mode](https://grapheneos.org/usage#bugs-uncovered-by-security-features) enabled or disabled during the testing?
         
-        `Settings` → `Apps` → `App` → `Advanced` _[More info](https://grapheneos.org/usage#bugs-uncovered-by-security-features)_
+        `Settings` → `Apps` → `App` → `Advanced`
       options:
         - label: Enabled
         - label: Disabled
