@@ -112,14 +112,20 @@ body:
   - type: checkboxes
     attributes:
       label: Native code debugging
-      description: Was native code debugging enabled or disabled during the testing? (Owner Profile → Settings → Security → Enable native code debugging)
+      description: |
+        Was native code debugging enabled or disabled during the testing? 
+        
+        `Owner Profile` → `Settings` → `Security` → `Enable native code debugging` _[More info](https://grapheneos.org/usage#banking-apps)_
       options:
         - label: Enabled
         - label: Disabled
   - type: checkboxes
     attributes:
       label: Exploit protection compatibility mode
-      description: Was per-app exploit protection compatibility mode enabled or disabled during the testing? (Settings → Apps → App → Advanced) [More info](https://grapheneos.org/usage#bugs-uncovered-by-security-features)
+      description: |
+        Was per-app exploit protection compatibility mode enabled or disabled during the testing?
+        
+        `Settings` → `Apps` → `App` → `Advanced` _[More info](https://grapheneos.org/usage#bugs-uncovered-by-security-features)_
       options:
         - label: Enabled
         - label: Disabled
