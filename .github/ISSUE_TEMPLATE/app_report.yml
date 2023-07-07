@@ -67,6 +67,9 @@ body:
       description: Which Pixel(s) have you tested this with? (Select one or multiple)
       multiple: true
       options:
+        - Pixel Fold
+        - Pixel Tablet
+        - Pixel 7a
         - Pixel 7 Pro
         - Pixel 7
         - Pixel 6a
