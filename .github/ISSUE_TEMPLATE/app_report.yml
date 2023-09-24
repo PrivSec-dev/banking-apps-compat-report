@@ -146,6 +146,16 @@ body:
         - label: Works
         - label: Does not work
         - label: Not tested
+  - type: checkboxes
+    attributes:
+      label: NFC payments
+      description: Does this app allow NFC payments?
+      options:
+        - label: Works
+        - label: Works but requires another service
+        - label: Does not work
+        - label: N/A (Not supported by app)
+        - label: Not tested
   - type: textarea
     id: description
     attributes:
