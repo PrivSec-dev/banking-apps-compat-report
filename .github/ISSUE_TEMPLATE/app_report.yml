@@ -6,7 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please read the official [Banking apps](https://grapheneos.org/usage#banking-apps) usage guide. If an app issue occurs, read [possible solutions](https://akc3n.page/posts/banking-app-issues/#possible-solutions). **Apply a country label for new reports**!
+        The official [Banking apps](https://grapheneos.org/usage#banking-apps) usage guide. If encountering an app issue, read [possible solutions](https://akc3n.page/posts/banking-app-issues/#possible-solutions). 
+        
+        **Please [apply a label](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels#applying-a-label) for the country of your banking app report. Leave blank if country is not listed and it will be added upon review of your report. Thank you!**
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
