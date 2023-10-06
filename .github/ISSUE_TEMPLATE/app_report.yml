@@ -6,11 +6,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please read the official [Banking apps](https://grapheneos.org/usage#banking-apps) usage guide. If an app issue occurs, read [possible solutions](https://akc3n.page/posts/banking-app-issues/#possible-solutions).
+        Please read the official [Banking apps](https://grapheneos.org/usage#banking-apps) usage guide. If an app issue occurs, read [possible solutions](https://akc3n.page/posts/banking-app-issues/#possible-solutions). **Apply a country label for new reports**!
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
-      description: Please search to see if an issue already exists to avoid creating duplicates. **Please apply a country label for new reports**!
+      description: Please search to see if an issue already exists to avoid creating duplicates.
       options:
         - label: I have searched the existing issues
           required: true
