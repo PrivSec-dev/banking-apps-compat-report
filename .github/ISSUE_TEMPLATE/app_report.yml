@@ -70,6 +70,8 @@ body:
       description: Which Pixel(s) have you tested this with? (Select one or multiple)
       multiple: true
       options:
+        - Pixel 8 Pro
+        - Pixel 8
         - Pixel Fold
         - Pixel Tablet
         - Pixel 7a
@@ -79,11 +81,11 @@ body:
         - Pixel 6 Pro
         - Pixel 6
         - Pixel 5a
-        - Pixel 5
+        - Pixel 5 (EOL)
         - Pixel 4a (5G)
-        - Pixel 4a (end-of-life)
-        - Pixel 4 XL (end-of-life)
-        - Pixel 4 (end-of-life)
+        - Pixel 4a (EOL/ESR)
+        - Pixel 4 XL (EOL/ESR)
+        - Pixel 4 (EOL/ESR)
         - Pixel 3a XL (obsolete)
         - Pixel 3a (obsolete)
         - Pixel 3 XL (obsolete)
