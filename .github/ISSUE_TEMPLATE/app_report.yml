@@ -128,8 +128,8 @@ body:
         
         `Settings` → `Security` → `Enable native code debugging`
       options:
-        - label: Enabled
-        - label: Disabled
+        - label: Allowed
+        - label: Blocked
   - type: checkboxes
     attributes:
       label: Exploit protection compatibility mode
