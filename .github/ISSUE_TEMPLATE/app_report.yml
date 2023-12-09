@@ -8,11 +8,11 @@ body:
       value: |
         If you haven't already, please view the official [banking apps usage guide](https://grapheneos.org/usage#banking-apps). 
         
-        Experiencing issues with your app, refer to the [possible workaround solutions on our forum](https://discuss.grapheneos.org/d/8330-app-compatibility-with-grapheneos).
+        Experiencing issues with your app? Refer to the [possible workaround solutions on our forum](https://discuss.grapheneos.org/d/8330-app-compatibility-with-grapheneos).
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
-      description: Check for existing issues to prevent duplicates. **For updates or changes, comment on the existing reports.**
+      description: **For updates or changes, comment on the existing reports.** Check for existing issues to prevent duplicates. 
       options:
         - label: I have searched the existing issues
           required: true
@@ -106,12 +106,24 @@ body:
   - type: dropdown
     id: googleplay
     attributes:
-      label: Google Play installed
+      label: Google Play installed?
       description: Do you have Google Play installed in the profile you tested in?
       multiple: false
       options:
         - Not Installed
         - Installed
+    validations:
+        required: true
+  - type: dropdown
+    id: store
+    attributes:
+      label: Where did you install this app from?
+      description: Select your banking app installation method:
+      multiple: false
+      options:
+        - Google Play Store
+        - Aurora Store
+        - Other (extra notes below)
     validations:
         required: true
   - type: checkboxes
