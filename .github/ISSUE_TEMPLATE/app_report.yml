@@ -12,7 +12,7 @@ body:
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
-      description: **For updates or changes, comment on the existing reports.** Check for existing issues to prevent duplicates. 
+      description: For updates or changes, comment on the existing reports. Check for existing issues to prevent duplicates. 
       options:
         - label: I have searched the existing issues
           required: true
