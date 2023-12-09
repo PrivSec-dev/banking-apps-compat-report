@@ -6,7 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        The official [Banking apps](https://grapheneos.org/usage#banking-apps) usage guide. If encountering an app issue, read [possible solutions](https://akc3n.page/posts/banking-app-issues/#possible-solutions).  
+        If you haven't already, please view the official [banking apps usage guide](https://grapheneos.org/usage#banking-apps). 
+        
+        Experiencing issues with your app, refer to the [possible workaround solutions on our forum](https://discuss.grapheneos.org/d/8330-app-compatibility-with-grapheneos).
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
