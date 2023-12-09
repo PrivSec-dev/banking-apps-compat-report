@@ -118,7 +118,7 @@ body:
     id: store
     attributes:
       label: Where did you install this app from?
-      description: Select your banking app installation method:
+      description: Select your banking app installation method.
       multiple: false
       options:
         - Google Play Store
