@@ -3,7 +3,7 @@
 Report and track international banking app compatibility with GrapheneOS, including which workarounds may be required.
 
 > [!IMPORTANT]  
-> Please read an important announcement (Dec 1, 2023) in [`this pinned issue`](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/342) releated to banking app compatibility.
+> Please read an important announcement (Dec 1, 2023) in [`this pinned issue`](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/342) related to banking app compatibility.
 
 ## Tablet of Contents
 
@@ -16,7 +16,7 @@ Report and track international banking app compatibility with GrapheneOS, includ
 
 A crowd-sourced project dataset for [GrapheneOS](https://grapheneos.org/) users on [supported devices](https://grapheneos.org/faq#supported-devices), featuring a maintained compatibility [list of tested international banking apps](https://privsec.dev/posts/android/banking-applications-compatibility-with-grapheneos/#international-banking-apps), which is [reviewed](https://github.com/PrivSec-dev/banking-apps-compat-report/issues?q=is%3Aissue+is%3Aclosed) and [published](https://privsec.dev/banking). 
 
-[PrivSec.dev](https://privsec.dev) hosts this 3rd-party community-sourced effort, offering detailed information and which[ workarounds](https://akc3n.page/posts/banking-app-issues/) may be required for banking apps compatibility with GrapheneOS.
+[PrivSec.dev](https://privsec.dev) hosts this 3rd-party community-sourced effort, offering detailed information and which [workarounds](https://akc3n.page/posts/banking-app-issues/) may be required for banking apps compatibility with GrapheneOS.
 
 ## It is essential to note that GrapheneOS:
 - **[does not](https://grapheneos.org/usage#banking-apps:~:text=grapheneos%20does%20not%20make%20any%20guarantees%20regarding%20the%20list's%20validity.) make any guarantees regarding the list's validity**
