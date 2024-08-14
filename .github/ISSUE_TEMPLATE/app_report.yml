@@ -69,18 +69,22 @@ body:
       description: Which Pixel(s) have you tested this with?
       multiple: true
       options:
+        - Pixel 9 Pro Fold
+        - Pixel 9 Pro XL
+        - Pixel 9 Pro
+        - Pixel 9
         - Pixel 8a
         - Pixel 8 Pro
         - Pixel 8
-        - Pixel Fold
-        - Pixel Tablet
+        - Pixel Fold (7th gen)
+        - Pixel Tablet (7th gen)
         - Pixel 7a
         - Pixel 7 Pro
         - Pixel 7
         - Pixel 6a
         - Pixel 6 Pro
         - Pixel 6
-        - Pixel 5a
+        - Pixel 5a (EOL/ESR)
         - Pixel 5 (EOL/ESR)
         - Pixel 4a (5G) (EOL/ESR)
         - Pixel 4a (EOL/ESR)
