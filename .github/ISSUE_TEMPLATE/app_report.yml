@@ -3,12 +3,14 @@ description: Report a banking app's compatibility on GrapheneOS
 title: "[Replace this with the name of your banking app]"
 labels: ["app report"]
 body:
+
   - type: markdown
     attributes:
       value: |
         If you haven't already, please view the official [banking apps usage guide](https://grapheneos.org/usage#banking-apps). 
         
         Experiencing issues with your app? Refer to the [possible workaround solutions on our forum](https://discuss.grapheneos.org/d/8330-app-compatibility-with-grapheneos).
+
   - type: checkboxes
     attributes:
       label: Is there an existing issue for this?
@@ -16,6 +18,7 @@ body:
       options:
         - label: I have searched the existing issues
           required: true
+
   - type: input
     id: version
     attributes:
@@ -24,6 +27,7 @@ body:
       placeholder: BMO Mobile Banking
     validations:
       required: true
+
   - type: input
     id: app_link
     attributes:
@@ -32,6 +36,7 @@ body:
       placeholder: https://play.google.com/store/apps/details?id=com.bmo.mobile
     validations:
       required: true
+
   - type: input
     id: os
     attributes:
@@ -43,6 +48,7 @@ body:
       placeholder: v1.3.3.7
     validations:
       required: true
+
   - type: input
     id: country
     attributes:
@@ -62,6 +68,7 @@ body:
       placeholder: SP2A.220405.003.2022040400
     validations:
       required: true
+
   - type: dropdown
     id: selectdevice
     attributes:
@@ -104,6 +111,7 @@ body:
         - Work profile (Add details in extra notes below, i.e., device manager app name)
     validations:
         required: true
+
   - type: dropdown
     id: googleplay
     attributes:
@@ -115,6 +123,7 @@ body:
         - Installed
     validations:
         required: true
+
   - type: dropdown
     id: store
     attributes:
@@ -127,6 +136,7 @@ body:
         - Other (extra notes below)
     validations:
         required: true
+
   - type: checkboxes
     attributes:
       label: Google Play services Network permission revoked?
@@ -135,37 +145,63 @@ body:
         - label: Revoked
         - label: Not revoked
         - label: I did not have Google Play services installed
+
   - type: checkboxes
     attributes:
       label: Native code debugging
       description: |
-        Was [native code debugging](https://grapheneos.org/usage#banking-apps) enabled or disabled during the testing? 
-        
-        `Settings` → `Apps` → `App` → `Exploit protection`
+        Was [native code debugging](https://grapheneos.org/usage#banking-apps) enabled or disabled during the testing?
+
+        `Settings` → `Apps` → `App in question` → `Exploit protection`
       options:
         - label: Allowed
         - label: Blocked
+
   - type: checkboxes
     attributes:
       label: Exploit protection compatibility mode
       description: |
         Was per-app [exploit protection compatibility mode](https://grapheneos.org/usage#bugs-uncovered-by-security-features) enabled or disabled during the testing?
-        
-        `Settings` → `Apps` → `App` → `Exploit protection`
+
+        `Settings` → `Apps` → `App in question` → `Exploit protection`
       options:
         - label: Enabled
         - label: Disabled
+
   - type: checkboxes
     attributes:
       label: Memory tagging extension (MTE)
       description: |
         Was [memory tagging](https://grapheneos.org/usage#bugs-uncovered-by-security-features) enabled? Only applicable to 8th generation pixels and later.
 
-        `Settings` → `Apps` → `App` → `Exploit protection`
+        `Settings` → `Apps` → `App in question` → `Exploit protection`
       options:
         - label: Enabled
         - label: Disabled
         - label: N/A
+
+  - type: checkboxes
+    attributes:
+      label: Dynamic code loading via memory
+      description: |
+        Was [dynamic code loading](https://grapheneos.org/features#exploit-protection) via memory restricted or allowed?
+
+        `Settings` → `Apps` → `App in question` → `Exploit protection`
+      options:
+        - label: Restricted
+        - label: Allowed
+
+  - type: checkboxes
+    attributes:
+      label: Dynamic code loading via storage
+      description: |
+        Was [dynamic code loading](https://grapheneos.org/features#exploit-protection) via storage restricted or allowed?
+
+        `Settings` → `Apps` → `App in question` → `Exploit protection`
+      options:
+        - label: Restricted
+        - label: Allowed
+
   - type: checkboxes
     attributes:
       label: Stock OS compatibility
@@ -174,6 +210,7 @@ body:
         - label: Works
         - label: Does not work
         - label: Not tested
+
   - type: checkboxes
     attributes:
       label: NFC payments
@@ -184,6 +221,7 @@ body:
         - label: Does not work
         - label: N/A (Not supported by app)
         - label: Not tested
+
   - type: textarea
     id: description
     attributes:
@@ -194,6 +232,7 @@ body:
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
     validations:
       required: true
+
   - type: textarea
     id: extra_notes
     attributes:
@@ -204,6 +243,7 @@ body:
         Tip: You can attach images by clicking this area to highlight it and then dragging files in.
     validations:
       required: false
+
   - type: textarea
     id: adb_logs
     attributes:
@@ -215,6 +255,7 @@ body:
       render: systemverilog
     validations:
       required: false
+
   - type: markdown
     attributes:
       value: |
