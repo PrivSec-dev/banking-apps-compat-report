@@ -107,6 +107,7 @@ body:
       multiple: true
       options:
         - Owner profile
+        - Private Space
         - Secondary profile(s)
         - Work profile (Add details in extra notes below, i.e., device manager app name)
     validations:
