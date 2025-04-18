@@ -223,6 +223,18 @@ body:
         - label: N/A (Not supported by app)
         - label: Not tested
 
+  - type: checkboxes
+    attributes:
+      label: Play Integrity API
+      description: |
+        Does this app use the Play Integrity API? Did you block its usage? You are notified if it does. The setting appears only then.
+
+        `Settings` → `Apps` → `App in question` → `Advanced`
+      options:
+        - label: Yes
+        - label: Blocked
+        - label: No
+
   - type: textarea
     id: description
     attributes:
