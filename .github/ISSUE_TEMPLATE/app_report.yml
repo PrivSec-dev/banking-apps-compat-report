@@ -196,7 +196,7 @@ body:
     attributes:
       label: Play Integrity API
       description: |
-        Test
+        Does this app use the Play Integrity API? Did you block its usage? You are notified if it does. The setting appears only then.
 
         `Settings` → `Apps` → `App in question` → `Exploit protection`
       options:
