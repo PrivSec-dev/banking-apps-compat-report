@@ -187,6 +187,17 @@ body:
 
   - type: checkboxes
     attributes:
+      label: Dynamic code loading via storage
+      description: |
+        Was [dynamic code loading](https://grapheneos.org/features#exploit-protection) via storage restricted or allowed?
+
+        `Settings` → 'Apps' → 'App in question' 'Exploit protection'
+      options:
+        - label: Restricted
+        - label: Allowed
+
+  - type: checkboxes
+    attributes:
       label: Play Integrity API
       description: |
         Does this app use the Play Integrity API? Did you block its usage? You are notified if it does. The setting appears only then.
