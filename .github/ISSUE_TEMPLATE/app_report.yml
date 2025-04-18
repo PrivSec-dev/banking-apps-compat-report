@@ -200,8 +200,8 @@ body:
 
         `Settings` → `Apps` → `App in question` → `Advanced`
       options:
-        - label: Yes
-        - label: No
+        - label: Yeah
+        - label: Blocked
 
   - type: checkboxes
     attributes:
