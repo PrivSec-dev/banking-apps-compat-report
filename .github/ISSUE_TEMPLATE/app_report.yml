@@ -198,10 +198,10 @@ body:
       description: |
         Does this app use the Play Integrity API? Did you block its usage? You are notified if it does. The setting appears only then.
 
-        `Settings` → `Apps` → `App in question` → `Exploit protection`
+        `Settings` → `Apps` → `App in question` → `Advanced`
       options:
-        - label: Restricted
-        - label: Allowed
+        - label: Yes
+        - label: No
 
   - type: checkboxes
     attributes:
