@@ -2,9 +2,6 @@
 
 Report and track international banking app compatibility with GrapheneOS, including which workarounds may be required.
 
-> [!IMPORTANT]  
-> Please read an important announcement (Dec 1, 2023) in [`this pinned issue`](https://github.com/PrivSec-dev/banking-apps-compat-report/issues/342) related to banking app compatibility.
-
 ## Tablet of Contents
 
 - [Introduction](#introduction)
