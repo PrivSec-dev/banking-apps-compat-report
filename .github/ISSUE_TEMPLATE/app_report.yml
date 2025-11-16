@@ -76,6 +76,10 @@ body:
       description: Which Pixel(s) have you tested this with?
       multiple: true
       options:
+        - Pixel 10 Pro Fold
+        - Pixel 10 Pro XL
+        - Pixel 10 Pro
+        - Pixel 10
         - Pixel 9a
         - Pixel 9 Pro Fold
         - Pixel 9 Pro XL
