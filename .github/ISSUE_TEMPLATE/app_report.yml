@@ -144,6 +144,18 @@ body:
     validations:
         required: true
 
+  - type: dropdown
+    id: googleaccount
+    attributes:
+      label: Were you logged into a Google account during app launch?
+      description: During app launch, were you logged into a Google account?
+      multiple: false
+      options:
+        - Not logged-in
+        - Logged-in
+    validations:
+        required: true
+
   - type: checkboxes
     attributes:
       label: Native code debugging
